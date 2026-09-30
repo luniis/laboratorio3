@@ -4,9 +4,9 @@ public class fibonacci {
         int b = 1;
         for (int i = 0; i < 10; i++) {
             System.out.println(a);
-            int c = a + b;
+            int x = a + b;
             a = b;
-            b = c;
+            b = x;
         }
     }
 }
