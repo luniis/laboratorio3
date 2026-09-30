@@ -1,12 +1,13 @@
 public class fibonacci {
+    public static int fib(int n) {
+        if (n <= 1) return n;
+        return fib(n - 1) + fib(n - 2);
+    }
+
     public static void main(String[] args) {
-        int a = 0;
-        int b = 1;
+        // Version recursiva
         for (int i = 0; i < 10; i++) {
-            System.out.println(a);
-            int x = a + b;
-            a = b;
-            b = x;
+            System.out.print(fib(i) + " ");
         }
     }
 }
