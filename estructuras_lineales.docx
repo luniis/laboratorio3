@@ -1,0 +1,7 @@
+Estructuras de datos lineales
+
+1. Arreglos (arrays): coleccion de elementos del mismo tipo en posiciones contiguas de memoria, accesibles por indice.
+2. Listas enlazadas: nodos que guardan un dato y una referencia al siguiente nodo.
+3. Pilas (stack): estructura LIFO; el ultimo en entrar es el primero en salir (push, pop).
+4. Colas (queue): estructura FIFO; el primero en entrar es el primero en salir (enqueue, dequeue).
+5. Listas doblemente enlazadas: cada nodo apunta al siguiente y al anterior.
